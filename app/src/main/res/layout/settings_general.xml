@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/general_settings_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_bg"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/general_settings_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/general_settings"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/colorYellow" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <SeekBar
+            android:id="@+id/font_size_bar"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end"
+            android:layout_marginStart="30dp"
+            android:gravity="end"
+            android:layout_toEndOf="@+id/font_size_text" />
+
+        <TextView
+            android:id="@+id/font_size_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/font_size_bar"
+            android:layout_alignTop="@id/font_size_bar"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="30dp"
+            android:gravity="center"
+            android:text="@string/font_size"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorAccent" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:layout_marginStart="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/font_color_text"
+            android:entries="@array/spinner_list"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/font_color_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_alignTop="@id/spinner"
+            android:layout_alignBottom="@id/spinner"
+            android:gravity="center"
+            android:text="@string/font_color"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorAccent" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_item1_switch"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:checked="true"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/settings_item3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_alignTop="@id/add_item1_switch"
+            android:layout_alignBottom="@id/add_item1_switch"
+            android:gravity="center"
+            android:text="@string/item_3"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorAccent" />
+
+
+    </RelativeLayout>
+</LinearLayout>

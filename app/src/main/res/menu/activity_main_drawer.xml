@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/gr1">
+        <item
+            android:id="@+id/main_page"
+            android:icon="@drawable/home2"
+            android:title="@string/main"
+            android:checked="true" />
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/gr2">
+        <item
+            android:id="@+id/settings_page"
+            android:icon="@drawable/settings"
+            android:title="@string/settings" />
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/gr3">
+        <item
+            android:id="@+id/info_page"
+            android:icon="@drawable/info2"
+            android:title="@string/info" />
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/gr4">
+        <item android:title="@string/sign_in"
+            android:id="@+id/sign_in"
+            android:icon="@drawable/sign_in">
+        </item>
+    </group>
+
+</menu>

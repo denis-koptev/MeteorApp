@@ -1,0 +1,47 @@
+<resources>
+
+    <string name="app_name">MeteorApp</string>
+    <string name="version_name">2.0</string>
+    <string name="developer_info">Created by Koptev Denis\nSaint-Petersburg, 2016</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_help">Help</string>
+    <string name="action_apply">Apply</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="main_caps">MAIN</string>
+    <string name="main">Main</string>
+    <string name="long_click_item">Long click to get context menu</string>
+    <string name="item_1">Item 1</string>
+    <string name="item_2">Item 2</string>
+    <string name="item_3">Item 3</string>
+
+    <string name="info_caps">INFO</string>
+    <string name="info">Info</string>
+
+    <string name="settings_caps">SETTINGS</string>
+    <string name="settings">Settings</string>
+    <string name="general_settings">General</string>
+    <string name="font_size">Font size</string>
+    <string name="font_color">Font color</string>
+    <string name="some_value_settings">SomeValue</string>
+    <string name="add_item1">Additional Item 1</string>
+    <string name="add_item2">Additional Item 2</string>
+    <string name="additional_settings">Additional</string>
+    <string-array name="spinner_list">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="sign_caps">SIGN IN</string>
+    <string name="sign">Sign in</string>
+    <string name="login">login</string>
+    <string name="password">password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="show_password">show password</string>
+
+</resources>
